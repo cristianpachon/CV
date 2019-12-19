@@ -14,7 +14,7 @@
 \familyname{}
 \title{Data Scientist}
 
-\address{Lleida 13, Baixos}{Premià de Mar 08330}{Barcelona}
+\address{Lleida 13, baixos}{08330 Premià de Mar}{Barcelona}
 \mobile{+34635025510}
 \email{cc.pachon@gmail.com}
 \social[linkedin][www.linkedin.com/in/cristian-pachon/]{Cristian Pachón} 
@@ -57,8 +57,8 @@ using Machine Learning algorithms. \newline
 The main tasks performed are:
 \begin{itemize}
 \item Creation and maintenance of an ad system based on Machine Learning. The 
-goal of the the system is to decide what ad to show taking into account
-the revenue and the probability of clicking the add. The tool was 
+goal of the system is to decide which ad to show taking into account
+the revenue and the probability of clicking the ad. The tool was 
 created using TensorFlow and Google Cloud Platform (AI Platform). 
 \item Creation of an MVP to generate new reviews using Deep Learning
 algorithms. In order to help Softonic with new content, we developed a 
@@ -108,23 +108,24 @@ The main tasks performed were:
 \end{itemize}
 }
 
-\section{IT Skills}
+\section{IT Technologies}
 
 %% AWS
-\cvitem{Programming}{SQL, MongoDB, Python, TEX, Git.}
+\cvitem{Programming}{SQL, MongoDB, Python, TEX.}
+\cvitem{Dev Tools}{Git.}
 \cvitem{Data Analysis}{R, Matlab, SPSS, SAS.}
 \cvitem{BI}{Tableau.}
 \cvitem{Cloud Platforms}{Google Cloud Platform.}
 
 \section{Courses}
 
-\cventry{Jan 2019}{\link[Machine Learning with TensorFlow on Google Cloud Platform Specialization]{https://www.coursera.org/specializations/machine-learning-tensorflow-gcp}}{Coursera}{Online}{}{}
+\cventry{January 2019}{\link[Machine Learning with TensorFlow on Google Cloud Platform Specialization]{https://www.coursera.org/specializations/machine-learning-tensorflow-gcp}}{Coursera}{Online}{}{}
 
 
 \section{Presentations}
-\cventry{Jan. 2019}{\link[Multidimensional Scaling for Big Data]{https://github.com/cristianpachon/presentations/tree/master/mds}}{Cristian Pachón García}{Barcelona Data Science and Machine Learning Meetup}{Barcelona}{}{}
+\cventry{January 2019}{\link[Multidimensional Scaling for Big Data]{https://github.com/cristianpachon/presentations/tree/master/mds}}{Cristian Pachón García}{Barcelona Data Science and Machine Learning Meetup}{Barcelona}{}{}
 \cventry{April 2018}{\link[What you have never been told about GLM]{https://github.com/cristianpachon/presentations/tree/master/glm}}{Cristian Pachón García}{Barcelona Data Science and Machine Learning Meetup}{Barcelona}{}{}
-\cventry{Oct. 2016}{\link[Logistic Regression Meets Fintech]{https://github.com/cristianpachon/presentations/tree/master/logistic_regression}}{Cristian Pachón García, Jelena Mirkovic}{Barcelona R user's group}{Barcelona}{}{}
+\cventry{October 2016}{\link[Logistic Regression Meets Fintech]{https://github.com/cristianpachon/presentations/tree/master/logistic_regression}}{Cristian Pachón García, Jelena Mirkovic}{Barcelona R user's group}{Barcelona}{}{}
 
 
 \section{Languages}
@@ -132,7 +133,7 @@ The main tasks performed were:
 \cvitem{Catalan}{Native.}
 \cvitem{Spanish}{Native.}
 \cvitem{English}{Business fluent.}
-\cvitem{English}{Intermediate.}
+\cvitem{Italian}{Intermediate.}
 
 
 %\section{Publications}
