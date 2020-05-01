@@ -26,14 +26,15 @@
 %% \quote{Data Scientist)}
 
 % Structure and concepts taken from Xevi Pujol's CV http://xvpujol.com/
+\usepackage{Sweave}
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+\input{cv-concordance}
 
 \makecvtitle
 
 \section{Education}
 
-\cventry{2019 - Present}{Postgraduate in Artificial Intelligence with Deep 
+\cventry{2019 - 2020}{Postgraduate in Artificial Intelligence with Deep 
 Learning}{Universitat Politècnica de Catalunya}{Barcelona}{}{}
 
 \cventry{2013 - 2019}{Master in Statistics and Operations Research}{Universitat 
@@ -49,21 +50,21 @@ Politècnica de Catalunya}{Barcelona}{}{}
 
 \section{Experience}
 
-\cventry{2019 - Present}{Data Scientist}{Softonic}{Barcelona}{}{
+\cventry{2019 - 2020}{Data Scientist}{Softonic}{Barcelona}{}{
 Softonic.com is a software and app discovery portal with a catalog of more than 
 160,000 products. \newline
-My responsibility is to improve the main KPI's (Click to Install, Revenue, etc.) 
+My responsibility was to improve the main KPI's (Click to Install, Revenue, etc.) 
 using Machine Learning algorithms. \newline 
 The main tasks performed are:
 \begin{itemize}
 \item Creation and maintenance of an ad system based on Machine Learning. The 
-goal of the system is to decide which ad to show taking into account
+goal of the system was to decide which ad to show taking into account
 the revenue and the probability of clicking the ad. The tool was 
 created using TensorFlow and Google Cloud Platform (AI Platform). 
 \item Creation of an MVP to generate new reviews using Deep Learning
 algorithms. In order to help Softonic with new content, we developed a 
 Machine Learning model that creates new reviews based on the existing ones. The 
-main part of the the project uses ELMo as an embedding.
+main part of the the project used ELMo as an embedding.
 \end{itemize}
 }
 
@@ -74,10 +75,10 @@ credit and fraud risk and increase customer acceptance. \newline
 The main tasks performed were:
 \begin{itemize}
 \item Development of Machine Learning models for credit scoring and 
-fraud detection. 
+fraud detection 
 \item Portfolio optimization to improve the trade-off between acceptance and 
-risk.
-\item Reporting to main stakeholders and investors. 
+risk
+\item Reporting to main stakeholders and investors
 \end{itemize}
 }
 
@@ -89,8 +90,8 @@ portfolio. \newline
 The main tasks performed were:
 \begin{itemize}
 \item Development of Machine Learning models for credit scoring and credit 
-cards.
-\item Reporting risk portfolio.
+cards
+\item Reporting risk portfolio
 \end{itemize}
 }
 
@@ -102,20 +103,56 @@ parameters (PD, LGD, EAD) used in the calculation of the Regulatory Capital
 under Basel II for banking institutions.  \newline
 The main tasks performed were: 
 \begin{itemize}
-\item Development of  statistical models to estimate risk parameters.
-\item Data Quality Validation.
-\item Reporting risk portfolio.
+\item Development of  statistical models to estimate risk parameters
+\item Data Quality Validation
+\item Reporting risk portfolio
 \end{itemize}
 }
 
 \section{IT Technologies}
-
-%% AWS
-\cvitem{Programming}{SQL, MongoDB, Python, TEX.}
-\cvitem{Dev Tools}{Git.}
-\cvitem{Data Analysis}{R, Matlab, SPSS, SAS.}
-\cvitem{BI}{Tableau.}
-\cvitem{Cloud Platforms}{Google Cloud Platform.}
+\cvitem{}{
+\begin{tabular}{p{0.28\textwidth}p{0.28\textwidth}p{0.28\textwidth}}
+    \textbf{Data Analysis}
+    \begin{itemize}
+      \item R
+      \item SAS
+      \item Matlab
+      \item SPSS
+    \end{itemize}
+    &
+    \textbf{Machine Learning}
+    \begin{itemize}
+      \item Scikit Learn
+      \item TensorFlow
+      \item Keras
+      \item PyTorch
+    \end{itemize}
+    &
+    \textbf{BI}
+    \begin{itemize}
+      \item Tableau
+    \end{itemize} \\
+    \textbf{Programming}
+    \begin{itemize}
+      \item Python
+      \item Flask
+      \item SQL
+      \item MongoDB
+      \item \LaTeX
+    \end{itemize}
+    &
+    \textbf{Dev Tools}
+    \begin{itemize}
+      \item Git
+      \item Docker
+    \end{itemize}
+    &
+    \textbf{Cloud Platforms}
+    \begin{itemize}
+      \item Google Cloud Platform
+    \end{itemize}
+\end{tabular}
+}
 
 \section{Courses}
 
@@ -129,19 +166,12 @@ The main tasks performed were:
 
 
 \section{Languages}
-%% Based on ILR Scale http://en.wikipedia.org/wiki/ILR_scale
-\cvitem{Catalan}{Native.}
-\cvitem{Spanish}{Native.}
-\cvitem{English}{Business fluent.}
-\cvitem{Italian}{Intermediate.}
-
-
-%\section{Publications}
-%
-%\cventry{Oct. 2016}{\httplink[Drinking patterns and drunk-driving behavior in Catalonia, Spain: A comparative study]{https%://www.sciencedirect.com/science/article/abs/pii/S1369847816303709}}{Manuela Alcañiz, Miguel Santolino, Lluís Ramon}{Transp%ortation Research Part F: Traffic Psychology and Behavior}{}{}
-
-%\section{Awards}
-%
-%\cventry{May 2019}{Accenture Datathon 2019 - Second Best Accuracy + Solution Track}{Predict melanoma patients survival rate %(risk of mortality) using patient profile, genetic, tumor biopsy and blood test variables. Team with: Laia Domino, David %Masip, and Jordi Puigdellivol}{}{}{}{}
-
+\cvitem{}{
+  \begin{itemize}
+    \item \textbf{Catalan}: Native
+    \item \textbf{Spanish}: Native
+    \item \textbf{English}: Business fluent
+    \item \textbf{Italian}: Intermediate
+  \end{itemize}
+}
 \end{document}
