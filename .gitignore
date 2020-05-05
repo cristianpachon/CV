@@ -1,4 +1,6 @@
 .DS_Store
 cv-concordance.tex
-cv.log
+*.aux
+*.out
 cv.synctex.gz
+*.log
