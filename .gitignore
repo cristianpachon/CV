@@ -4,3 +4,8 @@ cv-concordance.tex
 *.out
 cv.synctex.gz
 *.log
+.Rproj.user
+*.Rproj
+cv.fdb_latexmk
+cv.fls
+cv.xdv
